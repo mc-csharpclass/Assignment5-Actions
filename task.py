@@ -24,6 +24,7 @@ def get_first_and_last(list=[]):
     last = list[-1]
     return [first, last]
 
+
 # this function takes two dates and returns the
 # number of days between them
 def days_between(startDate=[], endDate=[]):

@@ -3,7 +3,6 @@
 
 import unittest
 import task
-import datetime
 
 
 class TestCase(unittest.TestCase):
@@ -42,6 +41,7 @@ class TestCase(unittest.TestCase):
         start2 = [2020, 1, 1]
         end2 = [2021, 1, 1]
         self.assertEqual(366, task.days_between(start2, end2))
+
 
 if __name__ == '__main__':
     unittest.main()
