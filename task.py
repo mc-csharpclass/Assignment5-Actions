@@ -1,6 +1,7 @@
 # task file
 
 import math
+from typing import Any, Callable
 
 
 def firstrun():
@@ -13,3 +14,11 @@ def calc_circle_area(radius):
 
     area = math.pi * math.pow(radius, 2)
     return area
+
+# this function accepts a list and returns the first
+# and last elements of that list
+def get_first_and_last(list = []):
+
+    first = list[0]
+    last = list[-1]
+    return [first, last]
