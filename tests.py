@@ -24,13 +24,13 @@ class TestCase(unittest.TestCase):
         expected2 = 78.53982
         self.assertAlmostEqual(expected2, task.calc_circle_area(5), 5)
 
-    def test_get_first_and_last(self):
+    """def test_get_first_and_last(self):
         # test that we get the correct items in a 3 item list
         testList = ['first', 'second', 'third']
         self.assertEqual(testList[0], task.get_first_and_last(testList)[0])
         self.assertEqual(testList[2], task.get_first_and_last(testList)[1])
 
-    """def test_days_between(self):
+    def test_days_between(self):
         # test that the function returns the correct differnce in days
         # start = datetime.datetime(2020,1,1)
         # end = datetime.datetime(2020,1,2)
