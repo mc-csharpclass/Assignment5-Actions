@@ -27,10 +27,8 @@ class TestCase(unittest.TestCase):
     def test_get_first_and_last(self):
         # test that we get the correct items in a 3 item list
         testList = ['first', 'second', 'third']
-        #print(testList[1])
         self.assertEqual(testList[0], task.get_first_and_last(testList)[0])
         self.assertEqual(testList[2], task.get_first_and_last(testList)[1])
-
 
 
 if __name__ == '__main__':
